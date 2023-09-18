@@ -25,12 +25,3 @@ For information about cabling and wiring the robot, consult the official cabling
 
 Feel free to explore the code and documentation in this repository to get started with your Lynxmotion A4WD3 wheeled robot platform.
 
- 
-
-Additional useful documentation: 
-
-Microsoft Word - Sabertooth 2x12 RC Quick Start.doc (robotshop.com) 
-
-Microsoft Word - Sabertooth2x12.doc (dimensionengineering.com) 
-
-Sabertooth Dual 12A 6V-24V R/C Regenerative Motor Driver - RobotShop
