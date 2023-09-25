@@ -8,9 +8,9 @@ The code in this repository code is adapted from the official Lynxmotion reposit
 
 ## Connection
 
-https://wiki.lynxmotion.com/info/wiki/lynxmotion/view/rover-kits/a4wd3-wheeled/a4wd3-wheeled-quickstart/a4wd3-wheeled-setup/a4wd3-wheeled-setup-mc/
+[Connection Diagram](https://wiki.lynxmotion.com/info/wiki/lynxmotion/view/rover-kits/a4wd3-wheeled/a4wd3-wheeled-quickstart/a4wd3-wheeled-setup/a4wd3-wheeled-setup-mc/]
 <p align="center">
-  <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/rover-kits/WebHome/BBU-01-Sabertooth-Wiring-2.png" style="transform:rotate(90deg);"/>
+  <img src="https://wiki.lynxmotion.com/info/wiki/lynxmotion/download/rover-kits/WebHome/BBU-01-Sabertooth-Wiring-2.png" width="100"/>
 </p>
 
 ## Keyboard Control Example
