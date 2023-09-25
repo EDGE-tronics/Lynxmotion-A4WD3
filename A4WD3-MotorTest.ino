@@ -14,7 +14,7 @@ Servo CH2_motor;
 
 // Variables for the PINs
 int CH1_pin = 3;
-int CH2_pin = 5;
+int CH2_pin = 5; #Remove the buzzer jumper (SPK)
 
 // Variables to store the speed values that will be sent for each motors
 int motorCH1speed = 1500; // Fwd 
@@ -26,10 +26,6 @@ char keyboardVal;
 
 void setup()
 {
-    // Buffer between USB & ATmega for LSS-2IO
-    pinMode(7, OUTPUT);
-    digitalWrite(7, LOW);
-
     // Pin mode for the 4 motor outputs
     pinMode(CH1_pin, OUTPUT);
     pinMode(CH2_pin, OUTPUT);
@@ -57,7 +53,7 @@ bool checkTimeOut(){
     if (currentMillis - previousMillis >= TIMEOUT){
         motorCH1speed = 1500;   // stop
         motorCH2speed = 1500;   // stop
-        previousMillis = millils();
+        previousMillis = millis();
         return true;
     }
     return false;
@@ -69,7 +65,7 @@ bool keyboardCapture()
     {
         keyboardVal = Serial.read();
         updateSpeed(keyboardVal);
-        previousMillis = millils();
+        previousMillis = millis();
         return true;
     } // Wait until a character is received
     return false;
